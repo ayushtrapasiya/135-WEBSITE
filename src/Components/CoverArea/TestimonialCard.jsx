@@ -1,7 +1,7 @@
 import React from 'react';
 import './CoverArea.css';
 import { FaStar } from 'react-icons/fa';
-import iconimg from '/src/assets/images/user.png'
+import iconimg from '/src/assets/Images/user.png'
 const TestimonialCard = ({v}) => {
   return (
     <div className="testimonial-card  ">
