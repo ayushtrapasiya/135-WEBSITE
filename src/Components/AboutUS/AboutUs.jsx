@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutUS.css';
+import './AboutUs.css';
 import { FaLeaf, FaUtensils, FaUserTie, FaAppleAlt, FaCalendarAlt } from 'react-icons/fa';
 import calendar from '/src/assets/Images/calendar.png'
 import chef from '/src/assets/Images/chef.png'
