@@ -1,0 +1,148 @@
+/* General container styling */
+.privacy-policy-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 50px !important;
+  text-align: left;
+}
+
+/* Title styling */
+.privacy-policy-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Intro and effective date */
+.privacy-policy-effective-date {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Section styling */
+.privacy-policy-section {
+  margin-bottom: 30px;
+}
+
+.privacy-policy-section-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.privacy-policy-subsection-title {
+  font-size: 1.3rem;
+  color: #444;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.privacy-policy-section-content {
+  margin-top: 10px;
+}
+
+.privacy-policy-content {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.privacy-policy-list {
+  margin-left: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.privacy-policy-list li {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Contact details styling */
+.privacy-policy-contact-details {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 998px) {
+  .privacy-policy-container {
+    padding-left: 3rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .privacy-policy-container {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  .privacy-policy-title {
+    font-size: 2rem;
+  }
+
+  .privacy-policy-effective-date {
+    font-size: 0.95rem;
+  }
+
+  .privacy-policy-section-title {
+    font-size: 1.4rem;
+  }
+
+  .privacy-policy-subsection-title {
+    font-size: 1.1rem;
+  }
+
+  .privacy-policy-list {
+    margin-left: 15px;
+  }
+
+  .privacy-policy-list li,
+  .privacy-policy-content,
+  .privacy-policy-contact-details {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .privacy-policy-title {
+    font-size: 1.8rem;
+  }
+
+  .privacy-policy-effective-date {
+    font-size: 0.85rem;
+  }
+
+  .privacy-policy-section-title {
+    font-size: 1.3rem;
+  }
+
+  .privacy-policy-subsection-title {
+    font-size: 1rem;
+  }
+
+  .privacy-policy-list {
+    margin-left: 10px;
+  }
+
+  .privacy-policy-list li,
+  .privacy-policy-content,
+  .privacy-policy-contact-details {
+    font-size: 0.85rem;
+  }
+}
+
+/* Add padding to top of the container */
+.pt-5 {
+  padding-top: 5rem;
+}

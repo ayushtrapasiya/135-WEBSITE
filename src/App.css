@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Public+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: #FFFDF6  !important;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+/* h1{
+    font-family: "Ubuntu", sans-serif !important;
+}
+h2{
+    font-family: "Ubuntu", sans-serif !important;
+}
+h3{
+    font-family: "Ubuntu", sans-serif !important;
+}
+h4{
+    font-family: "Ubuntu", sans-serif !important;
+}
+h5{
+    font-family: "Ubuntu", sans-serif !important;
+} */
+
+p{
+    /* font-family: "Ubuntu", sans-serif !important; */
+    font-family: "Public Sans", sans-serif !important;
+}
+:root {
+    --primary-color: #0b254586;
+    --secondary-color: #8da9c42b;
+    --success-color: #34C759;
+    --danger-color: #dc3545;
+    --light-bg: #f8f9fa;
+    --backdround-color: #0B2545;
+    --navy-800: #11325a;
+    --primary-blue: #2563eb;
+    --error-red: #FF3B30;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main{
+    position: relative;
+}
+
+/* App.css */
+.loader {
+  margin: 100px auto;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #FF9C1A;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

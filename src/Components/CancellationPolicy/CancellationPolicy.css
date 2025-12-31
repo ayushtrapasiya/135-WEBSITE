@@ -1,0 +1,147 @@
+/* General container styling */
+.cancellation-policy-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 50px !important;
+}
+
+/* Title styling */
+.cancellation-policy-title {
+  font-size: 2.5rem;
+
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Intro and effective date */
+.cancellation-policy-effective-date {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.cancellation-policy-effective-date,
+.cancellation-policy-intro {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.cancellation-policy-intro {
+  margin-top: 10px;
+}
+
+/* Section titles */
+.cancellation-policy-section-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.cancellation-policy-list {
+  margin-left: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.cancellation-policy-list li {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Contact and acknowledgement text */
+.cancellation-policy-contact {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 15px;
+}
+
+.cancellation-policy-contact-details {
+  font-size: 1rem;
+  color: #555;
+}
+
+.cancellation-policy-acknowledgement {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+@media (max-width: 998px) {
+  .cancellation-policy-container {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .cancellation-policy-container {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+
+  .cancellation-policy-title {
+    font-size: 2rem;
+  }
+
+  .cancellation-policy-effective-date,
+  .cancellation-policy-intro {
+    font-size: 0.95rem;
+  }
+
+  .cancellation-policy-section-title {
+    font-size: 1.4rem;
+  }
+
+  .cancellation-policy-list {
+    margin-left: 15px;
+  }
+
+  .cancellation-policy-list li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .cancellation-policy-title {
+    font-size: 1.8rem;
+  }
+
+  .cancellation-policy-effective-date,
+  .cancellation-policy-intro {
+    font-size: 0.85rem;
+  }
+
+  .cancellation-policy-section-title {
+    font-size: 1.3rem;
+  }
+
+  .cancellation-policy-list {
+    margin-left: 10px;
+  }
+
+  .cancellation-policy-list li {
+    font-size: 0.85rem;
+  }
+
+  .cancellation-policy-contact,
+  .cancellation-policy-contact-details,
+  .cancellation-policy-acknowledgement {
+    font-size: 0.85rem;
+  }
+}
+
+/* Add padding to top of the container */
+.pt-5 {
+  padding-top: 5rem;
+}

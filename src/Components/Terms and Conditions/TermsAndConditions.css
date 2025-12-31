@@ -1,0 +1,145 @@
+/* General container styling */
+.terms-conditions-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 50px !important;
+}
+
+/* Title styling */
+.terms-conditions-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Intro and effective date */
+.terms-conditions-effective-date {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.terms-conditions-effective-date,
+.terms-conditions-intro {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.terms-conditions-intro {
+  margin-top: 10px;
+}
+
+/* Section titles */
+.terms-conditions-section-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.terms-conditions-subsection-title {
+  font-size: 1.4rem;
+  font-weight: semi-bold;
+  color: #2980b9;
+  margin-top: 15px;
+}
+
+.terms-conditions-list {
+  margin-left: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.terms-conditions-list-item {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Content styling */
+.terms-conditions-content {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Contact and acknowledgement text */
+.terms-conditions-contact-details {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .terms-conditions-container {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  .terms-conditions-title {
+    font-size: 2rem;
+  }
+
+  .terms-conditions-effective-date,
+  .terms-conditions-intro {
+    font-size: 0.95rem;
+  }
+
+  .terms-conditions-section-title {
+    font-size: 1.4rem;
+  }
+
+  .terms-conditions-subsection-title {
+    font-size: 1.2rem;
+  }
+
+  .terms-conditions-list {
+    margin-left: 15px;
+  }
+
+  .terms-conditions-list-item,
+  .terms-conditions-content,
+  .terms-conditions-contact-details {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-conditions-title {
+    font-size: 1.8rem;
+  }
+
+  .terms-conditions-effective-date,
+  .terms-conditions-intro {
+    font-size: 0.85rem;
+  }
+
+  .terms-conditions-section-title {
+    font-size: 1.3rem;
+  }
+
+  .terms-conditions-subsection-title {
+    font-size: 1.1rem;
+  }
+
+  .terms-conditions-list {
+    margin-left: 10px;
+  }
+
+  .terms-conditions-list-item,
+  .terms-conditions-content,
+  .terms-conditions-contact-details {
+    font-size: 0.85rem;
+  }
+}
+
+/* Add padding to top of the container */
+.pt-5 {
+  padding-top: 5rem;
+}
